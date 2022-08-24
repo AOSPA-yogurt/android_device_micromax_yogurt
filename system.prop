@@ -20,6 +20,9 @@ ro.sys.usb.charging.only=yes
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
 
+# Bluetooth
+persist.bluetooth.system_audio_hal.enabled=1
+
 # Kernel
 ro.zygote.preload.enable=0
 sys.ipo.disable=1
