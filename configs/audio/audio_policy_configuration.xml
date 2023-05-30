@@ -246,7 +246,10 @@
 
         </module>
 
-        <!-- BT Audio HAL -->
+        <!-- A2dp In Audio HAL -->
+        <xi:include href="a2dp_in_audio_policy_configuration.xml"/>
+
+        <!-- Bluetooth Audio HAL -->
         <xi:include href="bluetooth_audio_policy_configuration.xml"/>
 
         <!-- Usb Audio HAL -->
